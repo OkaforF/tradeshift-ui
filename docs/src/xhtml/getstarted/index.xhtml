@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Get Started</title>
-		<object data="tabs.xhtml"></object>
+		<!-- <object data="tabs.xhtml"></object> -->
 		<script>
 			ts.ui.ready(function nastyhack() {
 				new gui.Request('/dist/sri.json').get().then(function(status, json) {
@@ -39,7 +39,7 @@
 				<figure data-ts="DoxMarkup">
 					<script type="text/html">
 						<link rel="stylesheet" href="//d5wfroyti11sa.cloudfront.net/prod/client/ts-${ts.ui.version}.min.css"/>
-						<scrxpt src="//d5wfroyti11sa.cloudfront.net/prod/client/ts-${ts.ui.version}.min.js"></scrxpt>
+						<script src="//d5wfroyti11sa.cloudfront.net/prod/client/ts-${ts.ui.version}.min.js"></scrxpt>
 					</script>
 				</figure>
 				<!--
@@ -82,7 +82,7 @@
 				</figure>
 				<p>
 					Before we begin, you&apos;ll need to mark up your page with the
-					<a data-ts="Button" href="/#getstarted/layout.html">basic layout</a>.
+					<a data-ts="Button" href="layout/index.html">basic layout</a>.
 				</p>
 			</section>
 		</article>

@@ -7,7 +7,25 @@
 	{
 		"label": "Get Started",
 		"icon": "docs-icon-space-rocket",
-		"path": "getstarted/"
+		"path": "getstarted/",
+		"items": [
+			{
+				"label": "Layout",
+				"icon": "docs-icon-programming-jigsaw",
+				"path": "getstarted/layout/"
+			},
+
+			{
+				"label": "Usage",
+				"icon": "docs-icon-spelling-check-1",
+				"path": "getstarted/usage/"
+			},
+			{
+				"label": "Rules",
+				"icon": "docs-icon-content-book-5",
+				"path": "getstarted/rules/"
+			}
+		]
 	},
 	{
 		"label": "Design Principles",
